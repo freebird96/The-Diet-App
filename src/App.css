@@ -1,0 +1,61 @@
+.App {
+  min-height: 100vh;
+  background: url("./images/bamboo.jpg");
+  padding: 20px;
+}
+
+.header {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  border: black 1px solid;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 40px;
+  width: 50%;
+  justify-content: space-around;
+  align-content: center;
+  background-color: rgb(150, 145, 145);
+}
+
+.para {
+    text-align:center;
+   padding:0 20%;
+   background-color: rgb(240, 231, 231);
+   padding: 10px 40px;
+   margin-bottom: 10px;
+   border-radius: 15px;
+}
+
+.search-form {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: black 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.search-button {
+  background: #9c8f63;
+  border: black 1px solid;
+  width: 20%;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
